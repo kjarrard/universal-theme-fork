@@ -152,7 +152,7 @@ var GMaps = (function(global) {
   var GMaps = function(options) {
     if (!this) return new GMaps(options);
 
-    options.zoom = options.zoom || 15;
+    options.zoom = options.zoom || 17;
     options.mapType = options.mapType || 'roadmap';
 
     var self = this,
